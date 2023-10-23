@@ -1,0 +1,20 @@
+import axios from "axios";
+
+export const registers = async (name, email, mobile, password) => {
+  try {
+   
+    const reqUrl = `${process.env.REACT_APP_BACKEND_URL}/user/register`;
+    const reqPayload = {
+      name: name,
+      email: email,
+      mobile: mobile,
+      password: password,
+    };
+    const response = await axios.post(reqUrl, reqPayload);
+    localStorage.setItem("token", response.data.jwtToken);
+    return response.data; //return response data
+  } catch (error) {
+    console.log(error);
+    throw error;
+  }
+};

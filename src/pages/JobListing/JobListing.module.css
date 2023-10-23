@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Roboto:ital,wght@1,100&family=Single+Day&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  background-color: #ffeeee;
+}
+.jobListBtn {
+  height: 50px;
+  width: 130px;
+  border-radius: 10px;
+  background-color: #ff2020;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+}
+.selection {
+  height: 180px;
+  width: 1000px;
+  margin: auto;
+  background-color: #fff;
+  /* background-color: antiquewhite; */
+  margin-top: 40px;
+  box-shadow: 5px 5px 10px 10px #d79c9c;
+}
+
+.ins {
+  border: 2px solid rgb(241, 222, 222);
+  height: 40px;
+  width: 800px;
+  padding-left: 10px;
+  margin-left: 85px;
+}
+
+.ro {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-around;
+}
+/* #FF2020  #FFEEEE   #ED5353 */
+.selects {
+  width: 300px;
+}
+.jobList {
+  height: 120px;
+  width: 1000px;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 5px 5px 10px 5px #d79c9c;
+  margin-top: 40px;
+}
+.jobList:hover {
+  border-left: 8px solid #ff2020;
+}
+Select {
+  overflow: scroll;
+}
+.logos {
+  height: 60px;
+  width: 65px;
+  margin-top: 15px;
+  margin-left: 15px;
+  border-radius: 16px;
+}
+.desc h2 {
+  margin: 10px 0 0 20px;
+  font-family: "Roboto";
+  font-weight: bold;
+}
+
+.secondRow {
+  display: flex;
+}
+.salarys {
+  display: flex;
+}
+.salarys h3 {
+  font-weight: 540;
+  margin-left: 25px;
+  margin-top: 12px;
+  font-size: 20px;
+  color: gray;
+  letter-spacing: 0.1px;
+  font-family: "Roboto";
+}
+.groups img {
+  height: 15px;
+  margin-left: 20px;
+  width: 20px;
+  margin-top: 12px;
+}
+.groups {
+  font-size: 20px;
+  color: gray;
+}
+.rupee {
+  height: 15px;
+  width: 15px;
+  margin-right: 5px;
+}
+.desc {
+  width: 500px;
+}
+.fl {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+.fl p {
+  font-size: 20px;
+  color: gray;
+  margin-top: 2px;
+  margin-left: 10px;
+  font-family: "Roboto";
+}
+.flags {
+  height: 30px;
+  width: 35px;
+}
+.off {
+  display: flex;
+  margin-left: 18px;
+  margin-top: 8px;
+}
+.off1 {
+  color: rgb(255, 6, 6);
+  font-weight: 700;
+  font-family: "Roboto";
+}
+.off2 {
+  color: rgb(255, 6, 6);
+  font-weight: 700;
+  margin-left: 30px;
+  font-family: "Roboto";
+}
+.skillss {
+  margin-top: 25px;
+}
+.skillSects {
+  font-size: 17px;
+  font-family: "DM Sans";
+  margin-left: 65px;
+  padding-right: 5px;
+  background-color: #ffeeee;
+  border: none;
+  word-wrap: break-word;
+  letter-spacing: 1px;
+  word-spacing: 15px;
+  font-weight: 700;
+}
+.dd {
+  margin-top: 15px;
+  margin-left: 150px;
+}
+.skillbtn {
+  color: red;
+  border: 2px solid red;
+  background-color: #fff;
+  height: 35px;
+  width: 100px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: "DM Sans";
+}
+.skillbtns {
+  margin-left: 10px;
+  color: white;
+  font-family: "DM Sans";
+  background-color: #ff2020;
+  height: 35px;
+  width: 100px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 700;
+  border: none;
+}

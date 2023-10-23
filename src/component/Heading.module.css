@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200&family=Roboto:ital,wght@1,100&family=Single+Day&display=swap");
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.head {
+  height: 90px;
+  width: 100%;
+  background-color: #ed5353;
+  border-bottom-right-radius: 38px;
+  border-bottom-left-radius: 38px;
+  display: flex;
+  justify-content: space-between;
+}
+.hh1 {
+  margin: 0;
+  font-family: "DM Sans";
+  letter-spacing: 2px;
+}
+.firstHeading {
+  margin-top: 20px;
+  margin-left: 40px;
+  color: white;
+  font-family: "DM Sans", sans-serif;
+}
+.logout {
+  margin-top: 15px;
+  margin-right: 100px;
+}
+.logout1 {
+  display: flex;
+  margin-top: 15px;
+  margin-right: 100px;
+  justify-content: space-evenly;
+}
+.btn1 {
+  height: 40px;
+  border: 2px solid white;
+  width: 95px;
+  border-radius: 8px;
+  margin-top: 5px;
+  margin-right: 20px;
+  font-family: "DM Sans", sans-serif;
+  background-color: #ed5353;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
+.btn2 {
+  height: 40px;
+  border: 2px solid white;
+  width: 95px;
+  border-radius: 8px;
+  color: #ed5353;
+  margin-top: 5px;
+  background-color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
+.images {
+  height: 50px;
+  width: 70px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.hh4 {
+  margin-top: 15px;
+  margin-right: 40px;
+  color: #fff;
+  font-family: "DM Sans", sans-serif;
+  letter-spacing: 1px;
+}
+.btn3 {
+  margin-top: 15px;
+  font-size: 17px;
+  margin-left: 100px;
+  font-family: "DM Sans", sans-serif;
+  border: none;
+  color: #fff;
+  margin-right: 15px;
+}
+.firstHeading1 {
+  margin-top: 25px;
+  margin-left: 40px;
+  color: white;
+  font-family: "DM Sans", sans-serif;
+}

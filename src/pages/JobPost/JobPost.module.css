@@ -1,0 +1,145 @@
+.postJob {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.postJobPart {
+  height: 100%;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.posts {
+  height: 100%;
+  width: 40%;
+}
+.postJobForm {
+  display: flex;
+  justify-content: center;
+}
+
+.postJobLine {
+  margin: 0;
+  margin-right: 240px;
+  margin-top: 30px;
+}
+.foorm label {
+  font-size: 17px;
+  color: #000;
+  font-weight: bolder;
+}
+
+.postJobForm form {
+  margin-right: 80px;
+}
+.foorm input {
+  margin-top: 15px;
+  width: 300px;
+  height: 28px;
+}
+.lab2 {
+  margin-right: 8px;
+}
+.lab2 input {
+  margin-left: 24px;
+}
+.lab3 {
+  margin-right: 10px;
+}
+.lab3 input {
+  margin-left: 32px;
+}
+.lab4 {
+  margin-right: 12px;
+}
+.lab4 input {
+  margin-left: 15px;
+}
+.postJobSelect1 {
+  height: 30px;
+  margin-top: 10px;
+  width: 120px;
+  margin-right: 140px;
+}
+
+.lab5 {
+  margin-right: 57px;
+}
+.lab5 select {
+  margin-left: 65px;
+}
+.lab6 {
+  margin-right: 57px;
+}
+.lab6 select {
+  margin-left: 24px;
+}
+.lab7 {
+  margin-right: 23px;
+}
+.lab7 input {
+  margin-left: 67px;
+}
+.lab8 {
+  display: flex;
+}
+.lab8 p {
+  margin-top: 20px;
+  margin-right: 15px;
+}
+.lab8 textarea {
+  margin-top: 10px;
+  width: 300px;
+  height: 70px;
+}
+.lab9 {
+  display: flex;
+}
+.lab9 p {
+  margin-top: 20px;
+  margin-right: 10px;
+}
+.lab9 textarea {
+  margin-top: 10px;
+  width: 300px;
+  height: 70px;
+}
+.lab10 input {
+  margin-left: 25px;
+}
+.lab10 {
+  margin-right: 25px;
+}
+.lab11 {
+  margin-right: 20px;
+}
+.lab11 input {
+  margin-left: 45px;
+}
+.bts {
+  height: 35px;
+  width: 100px;
+  background-color: #fff;
+  color: gray;
+  border-color: rgb(228, 222, 222);
+  border-radius: 8px;
+  font-weight: 700;
+}
+.bbts {
+  margin-left: 190px;
+  margin-top: 15px;
+}
+.bbt {
+  height: 35px;
+  width: 100px;
+  border-radius: 8px;
+  background-color: #ed5353;
+  color: #fff;
+  border: none;
+  margin-left: 20px;
+  font-weight: 700;
+}
+.bts Link {
+  text-decoration: none;
+}
