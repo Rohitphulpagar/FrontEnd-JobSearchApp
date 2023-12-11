@@ -18,7 +18,9 @@
   display: flex;
   justify-content: center;
 }
-
+.postJobHeadLine h1 {
+  margin: 0;
+}
 .postJobLine {
   margin: 0;
   margin-right: 240px;
@@ -31,12 +33,13 @@
 }
 
 .postJobForm form {
+  margin-top: 0;
   margin-right: 80px;
 }
 .foorm input {
   margin-top: 15px;
-  width: 300px;
-  height: 28px;
+  width: 250px;
+  height: 25px;
 }
 .lab2 {
   margin-right: 8px;
@@ -51,35 +54,35 @@
   margin-left: 32px;
 }
 .lab4 {
-  margin-right: 12px;
+  margin-right: 8px;
 }
 .lab4 input {
-  margin-left: 15px;
+  margin-left: 10px;
 }
 .postJobSelect1 {
-  height: 30px;
+  height: 25px;
   margin-top: 10px;
-  width: 120px;
-  margin-right: 140px;
+  width: 110px;
+  margin-right: 110px;
 }
 
 .lab5 {
-  margin-right: 57px;
+  margin-right: 40px;
 }
 .lab5 select {
-  margin-left: 65px;
+  margin-left: 54px;
 }
 .lab6 {
-  margin-right: 57px;
+  margin-right: 40px;
 }
 .lab6 select {
-  margin-left: 24px;
+  margin-left: 20px;
 }
 .lab7 {
-  margin-right: 23px;
+  margin-right: 18px;
 }
 .lab7 input {
-  margin-left: 67px;
+  margin-left: 18px;
 }
 .lab8 {
   display: flex;
@@ -91,7 +94,7 @@
 .lab8 textarea {
   margin-top: 10px;
   width: 300px;
-  height: 70px;
+  height: 50px;
 }
 .lab9 {
   display: flex;
@@ -103,19 +106,19 @@
 .lab9 textarea {
   margin-top: 10px;
   width: 300px;
-  height: 70px;
+  height: 50px;
 }
 .lab10 input {
-  margin-left: 25px;
+  margin-left: 15px;
 }
 .lab10 {
-  margin-right: 25px;
+  margin-right: 10px;
 }
 .lab11 {
-  margin-right: 20px;
+  margin-right: 15px;
 }
 .lab11 input {
-  margin-left: 45px;
+  margin-left: 35px;
 }
 .bts {
   height: 35px;

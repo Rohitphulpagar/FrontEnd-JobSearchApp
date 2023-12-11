@@ -57,7 +57,7 @@ function JobPost() {
         <div className={styl.postJobHeadLine}>
           <h1 className={styl.postJobLine}>Add job description</h1>
         </div>
-        <br />
+
         <div className={styl.postJobForm}>
           <form className={styl.foorm} onSubmit={createUserJob}>
             {" "}
@@ -137,7 +137,7 @@ function JobPost() {
               </select>
             </label>
             <label className={styl.lab7}>
-              Location
+              Location/City
               <input
                 type="text"
                 className={styl.postJobInput}

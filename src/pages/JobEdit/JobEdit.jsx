@@ -41,9 +41,9 @@ function JobEdit() {
     <div className={design.editjob}>
       <div className={design.firstPart}>
         <div className={design.tags}>
-          <h1>Update Job Description</h1>
+          <h2>Update Job Description</h2>
         </div>
-        <br />
+
         <div className={design.formFirst}>
           <form onSubmit={createUserJob}>
             {" "}
