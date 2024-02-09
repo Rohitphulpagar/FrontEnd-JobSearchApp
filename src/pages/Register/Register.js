@@ -79,7 +79,7 @@ function Register() {
               </span>
             </div>
             <br />
-            <br />
+
             <button className="bts" type="submit">
               Create Account
             </button>

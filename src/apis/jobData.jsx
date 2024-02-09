@@ -8,10 +8,10 @@ export const jobData = async (
   remote,
   location,
   skillRequired
-  ) => {
-    try {
-      const backend_url=process.env.BACKEND_URL;
-      const reqUrl = `${backend_url}/user/get-jobs`;
+) => {
+  try {
+    const backend_url = process.env.REACT_APP_BACKEND_URL;
+    const reqUrl = `${backend_url}/user/get-jobs`;
     const response = await axios.get(reqUrl, {
       params: {
         logoUrl: logoUrl,

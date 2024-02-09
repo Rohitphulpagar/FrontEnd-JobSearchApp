@@ -17,22 +17,3 @@ export const login = async (email, password) => {
     throw error; // Re-throw the error to handle it in the component if necessary
   }
 };
-
-// export  const handleSubmit = async (e) => {
-
-//     e.preventDefault();
-
-//     try {
-//       const response = await axios.post('${process.env.REACT_APP_BACKEND_URL}/user/login', {
-//         email: email,
-//         password: password,
-//       });
-
-//       console.log('Login Successful:', response.data);
-//       localStorage.setItem('token',response.data.jwtToken);
-//     } catch (err) {
-//       // Handle login error
-//       setError('Invalid email or password');
-//       console.error('Login Error:', err);
-//     }
-//   };

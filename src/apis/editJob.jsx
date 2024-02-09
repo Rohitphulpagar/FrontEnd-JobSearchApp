@@ -2,7 +2,6 @@ import axios from "axios";
 
 export const EditJobPosts = async (jobId, formData) => {
   try {
-    
     const reqUrl = `${process.env.REACT_APP_BACKEND_URL}/user/job-post/${jobId}`;
     const headers = { Authorization: localStorage.getItem("token") };
 
